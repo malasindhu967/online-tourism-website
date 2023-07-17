@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> About Page </title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 20%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+span{
+  color:indigo;
+  font-size: 37px;
+
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+.about-section {
+  padding: 20px;
+  text-align: center;
+  background-image: url('about.jpg');
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color:floralwhite;
+}
+
+.container {
+  padding: 0 16px;
+  background-image: url('bb.jpg');
+  background-position: bottom;
+  text-shadow: ghostwhite;
+  text-align: center;
+  font-weight: bolder;
+  font-size: medium;
+  color:darkred;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color:maroon;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="about-section">
+  <h1 style="font-size: 43px;">About Us</h1>
+  <h3>Online Tourism Reservation System</h3>
+</div>
+<h3 style="text-align:center;">“Online Tourism Booking system” is an attempt to simulate the basic concepts of an online Reservation system.This Software has developed for automating the manual
+  Tourist Places Reservation System.</h3>
+<h4><center>*****************************************************************</center></h4>
+<h2 style="text-align:center;"><span>Our Team</span> </h2>
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <div class="container">
+        <h2>SINDHU</h2>
+        <p class="title">DEVELOPER</p>
+        <p>R180114</p>
+        <p>r180114@rguktrkv.ac.in</p>
+        <p>+91 7995697331</p>
+      </div>
+    </div>
+  </div>
+   <div class="column">
+    <div class="card">
+      <div class="container">
+        <h2>LALITHA</h2>
+        <p class="title">DEVELOPER</p>
+        <p>R180115</p>
+        <p>r180115@rguktrkv.ac.in</p>
+        <p>+91 9381630040</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
